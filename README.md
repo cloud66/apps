@@ -6,6 +6,7 @@
 2. Create a folder with the unique name of your app
 3. Create a file called app.json under the folder (see below for details of app.json)
 4. Create a file called services.yml under the folder (see below for details of services.yml)
+5. Make a Pull Request to merge it to the main repo.
 
 ### app.json (mandatory)
 
