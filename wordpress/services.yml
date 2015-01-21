@@ -1,5 +1,6 @@
 services:
-    image: wordpress
-    ports: ["80:80:443"]
+    wordpress:
+        image: wordpress
+        ports: ["80:80:443"]
 databases:
     - mysql
