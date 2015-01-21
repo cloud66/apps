@@ -13,10 +13,12 @@ This is a json file describing the app in the folder. It contains information ab
 
 ```
 {
-    "name" : "WordPress",
+    "name" : "wordpress",
+    "display_name" : "WordPress",
     "version" : "4.1.0",
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
     "created_at" : "2015-01-19",
+    "logo" : "https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png",
     "maintainer" : 
     {
         "name" : "Khash Sajadi",
@@ -36,7 +38,7 @@ The following fields are mandatory:
 - created_at
 - maintainer.email
 
-Non-mandatory fields:
+Optional fields:
 
 - maintainer.name
 - maintainer.company
@@ -53,6 +55,4 @@ Json file containing the environment variables required by this EasyDeploy.
 
 ### readme.md (optional)
 
-Markdown file for help and documentation of this EasyDeploy. You can use `{{}}` placeholders to refer to `app.json` values. For example: `{{version}}` will be replaced by the `version` value of the `app.json` or `{{maintainer.email}}` will be replaced by the maintainer's email address.
-
-
+Markdown file for help and documentation of this EasyDeploy. 
