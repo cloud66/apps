@@ -1,0 +1,17 @@
+services:
+  ghost:
+    image: cloud66/ghost:0.5.8
+    command: bash /ghost-start
+    ports:
+    - 2368:80:443
+    volumes:
+    - "/data:/ghost-override"
+    health:
+      type: normal
+      endpoint: "/"
+      protocol: http
+      timeout: 60s
+      accept:
+      - '200'  
+databases:
+- mysql
