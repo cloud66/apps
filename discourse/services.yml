@@ -1,0 +1,7 @@
+services:
+  mediawiki:
+    image: synctree/mediawiki
+    ports:
+    - 80:80:443
+databases:
+- mysql
