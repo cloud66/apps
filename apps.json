@@ -3,5 +3,6 @@
     {"name" : "drupal", "enabled" : true },
     {"name" : "ghost", "enabled" : true },
     {"name" : "gitlab", "enabled" : true },
-    {"name" : "mediawiki", "enabled" : true }
+    {"name" : "mediawiki", "enabled" : true },
+    {"name" : "magento", "enabled" : true }
 ]
