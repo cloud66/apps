@@ -1,13 +1,14 @@
 services:
-  wordpress:
-    image: cloud66/wordpress:4.1.0
+  drupal:
+    image: centurylink/drupal:7.28
+    command: exec supervisord -n
     ports:
     - 80:80:443
     health:
       type: normal
       endpoint: "/"
       protocol: http
-      timeout: 60s
+      timeout: 120s
       accept:
       - '200'
       - 300-399
