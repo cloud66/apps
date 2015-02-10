@@ -1,7 +1,7 @@
-{
-    "name" : "MediaWiki",
-    "version" : "1.23.8",
-    "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
-    "created_at" : "2015-02-10",
-    "maintainer" : "Philip Kallberg (philip@cloud66.com)",
-}
+#{
+#    "name" : "MediaWiki",
+#    "version" : "1.23.8",
+#    "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
+#    "created_at" : "2015-02-10",
+#    "maintainer" : "Philip Kallberg (philip@cloud66.com)",
+#}
