@@ -5,7 +5,7 @@
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
     "url": "https://about.gitlab.com/",
     "created_at" : "2015-02-10",
-    "description": "A web-based Git repository manager with wiki and issue tracking features.",
+    "description": "Web-based Git repository manager.",
     "logo" : "http://cdn.cloud66.com/images/appstore/gitlab.png",
     "maintainer" : 
     {
