@@ -1,0 +1,3 @@
+services:
+    image: dockerfile/ghost
+    ports: ["2368:80:443"]

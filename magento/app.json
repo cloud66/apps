@@ -1,12 +1,12 @@
 {
-    "name" : "gitlab",
-    "display_name" : "Gitlab",
-    "version" : "7.7.2",
+    "name" : "magento",
+    "display_name" : "Magento",
+    "version" : "1.9.1.0",
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
-    "url": "https://about.gitlab.com/",
+    "url": "http://www.magento.com/",
     "created_at" : "2015-02-10",
-    "description": "Web-based Git repository manager.",
-    "logo" : "http://cdn.cloud66.com/images/appstore/gitlab.png",
+    "description": "eCommerce software and platform.",
+    "logo" : "http://cdn.cloud66.com/images/appstore/magento.png",
     "maintainer" : 
     {
         "name" : "Philip Kallberg",
