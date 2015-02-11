@@ -2,7 +2,7 @@
     {"name" : "wordpress", "enabled" : true },
     {"name" : "drupal", "enabled" : true },
     {"name" : "ghost", "enabled" : true },
-    {"name" : "gitlab", "enabled" : true },
+    {"name" : "gitlab", "enabled" : false },
     {"name" : "mediawiki", "enabled" : true },
     {"name" : "magento", "enabled" : true }
 ]
