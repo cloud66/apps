@@ -1,0 +1,7 @@
+services:
+  magento:
+    image: cloud66/magento:1.9.1.0
+    ports:
+    - 80:80:443
+databases:
+- mysql
