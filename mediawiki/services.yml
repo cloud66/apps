@@ -1,6 +1,7 @@
 services:
   mediawiki:
     image: cloud66/mediawiki:1.23.8
+    command: apache2-foreground
     ports:
     - 80:80:443
 databases:
