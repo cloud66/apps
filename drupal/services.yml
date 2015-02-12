@@ -12,5 +12,6 @@ services:
       accept:
       - '200'
       - 300-399
+    restart_on_deploy: false      
 databases:
 - mysql

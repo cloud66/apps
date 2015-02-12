@@ -12,6 +12,7 @@ services:
       protocol: http
       timeout: 60s
       accept:
-      - '200'  
+      - '200'
+    restart_on_deploy: false    
 databases:
 - mysql
