@@ -11,7 +11,9 @@ services:
       accept:
       - '200'
       - 300-399
-    restart_on_deploy: false  
+    volume:
+    - "/var/run/docker.sock:/run/docker.sock"
+    - "/var/gitlab/data:/home/git/data"
 databases:
 - mysql
 - redis
