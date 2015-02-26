@@ -1,4 +1,3 @@
----
 services:
   letschat:
     git: git://github.com/sdelements/lets-chat.git
