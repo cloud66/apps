@@ -1,0 +1,11 @@
+---
+services:
+  redmine:
+    image: sameersbn/redmine:2.6.2
+    ports:
+    - 80:80:443
+    volumes:
+    - "/var/run/docker.sock:/run/docker.sock"
+    - "/home/redmine/data:/var/redmine/data"
+databases:
+- mysql
