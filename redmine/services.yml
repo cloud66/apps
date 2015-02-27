@@ -4,8 +4,16 @@ services:
     image: sameersbn/redmine:2.6.2
     ports:
     - 80:80:443
+    health:
+      type: normal
+      endpoint: "/"
+      protocol: http
+      timeout: 180s
+      accept:
+      - '200'
+      - 300-399
     volumes:
     - "/var/run/docker.sock:/run/docker.sock"
-    - "/home/redmine/data:/var/redmine/data"
+    - "/var/redmine/data:/home/redmine/data"
 databases:
 - mysql
