@@ -1,7 +1,9 @@
+---
 services:
-  mediawiki:
-    image: cloud66/mediawiki:1.23.8
-    command: apache2-foreground
+  redmine:
+    image: sameersbn/redmine:2.6.2
+    ports:
+    - 80:80:443
     health:
       type: normal
       endpoint: "/"
@@ -10,9 +12,8 @@ services:
       accept:
       - '200'
       - 300-399
-    ports:
-    - 80:80:443
     volumes:
-    - "/var/mediawiki/images:/var/www/html/images"
+    - "/var/run/docker.sock:/run/docker.sock"
+    - "/var/redmine/data:/home/redmine/data"
 databases:
 - mysql

@@ -11,5 +11,7 @@ services:
       accept:
       - '200'
       - 300-399
+    volumes:
+    - "/var/wordpress:/var/www/html"
 databases:
 - mysql

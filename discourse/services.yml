@@ -3,5 +3,6 @@ services:
     image: synctree/mediawiki
     ports:
     - 80:80:443
+    restart_on_deploy: false    
 databases:
 - mysql
