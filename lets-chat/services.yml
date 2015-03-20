@@ -1,7 +1,18 @@
+---
 services:
   letschat:
     git: git://github.com/sdelements/lets-chat.git
     git_branch: master
+    volumes:
+    - "/var/letschat/uploads:/usr/src/app/uploads"
+    health:
+      type: normal
+      endpoint: "/"
+      protocol: http
+      timeout: 180s
+      accept:
+      - '200'
+      - 300-399
     ports:
     - 5000:80:443
 databases:

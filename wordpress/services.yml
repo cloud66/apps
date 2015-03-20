@@ -11,6 +11,7 @@ services:
       accept:
       - '200'
       - 300-399
-    restart_on_deploy: false  
+    volumes:
+    - "/var/wordpress:/var/www/html"
 databases:
 - mysql

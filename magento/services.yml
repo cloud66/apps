@@ -1,8 +1,20 @@
+---
 services:
   magento:
     image: cloud66/magento:1.9.1.0
+    health:
+      type: normal
+      endpoint: "/"
+      protocol: http
+      timeout: 180s
+      accept:
+      - '200'
+      - 300-399
     ports:
     - 80:80:443
-    restart_on_deploy: false
+    volumes:
+    - "/var/magento/media:/var/www/htdocs/media"
+    - "/var/magento/var:/var/www/htdocs/var"
+    - "/var/magento/app:/var/www/htdocs/app"
 databases:
 - mysql

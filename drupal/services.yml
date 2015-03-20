@@ -1,9 +1,12 @@
+---
 services:
   drupal:
     image: centurylink/drupal:7.28
     command: exec supervisord -n
     ports:
     - 80:80:443
+    volumes:
+    - "/var/drupal/sites:/app/sites"
     health:
       type: normal
       endpoint: "/"
@@ -12,6 +15,5 @@ services:
       accept:
       - '200'
       - 300-399
-    restart_on_deploy: false      
 databases:
 - mysql

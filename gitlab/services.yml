@@ -11,9 +11,10 @@ services:
       accept:
       - '200'
       - 300-399
-    volume:
+    volumes:
     - "/var/run/docker.sock:/run/docker.sock"
     - "/var/gitlab/data:/home/git/data"
+    - "/var/gitlab/logs:/var/log/gitlab"
 databases:
 - mysql
 - redis
