@@ -2,7 +2,7 @@
 services:
   drupal:
     image: centurylink/drupal:7.28
-    command: exec supervisord -n
+    command: supervisord -n
     ports:
     - 80:80:443
     volumes:
