@@ -1,4 +1,5 @@
 [
+    {"name" : "drupal", "enabled" : true },
     {"name" : "ghost", "enabled" : true },
     {"name" : "gitlab", "enabled" : true },
     {"name" : "lets-chat", "enabled" : true },
