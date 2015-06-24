@@ -14,6 +14,7 @@ services:
       - '200'
       - 300-399
     ports:
-    - 5000:80:443
+    - 8080:80:443
+    dockerfile_path: docker/Dockerfile
 databases:
 - mongodb
