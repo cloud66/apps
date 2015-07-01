@@ -1,12 +1,12 @@
 {
-    "name" : "owncloud",
-    "display_name" : "OwnCloud",
-    "version" : "8.0.2",
+    "name" : "hubot",
+    "display_name" : "Hubot",
+    "version" : "2.11.4",
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
-    "url": "https://owncloud.org/",
+    "url": "https://github.com/github/hubot",
     "created_at" : "2015-04-03",
-    "description": "Self-hosted Dropbox.",
-    "logo" : "http://cdn.cloud66.com/images/appstore/owncloud.png",
+    "description": "Life embetterment robot.",
+    "logo" : "http://cdn.cloud66.com/images/appstore/hubot.png",
     "maintainer" : 
     {
         "name" : "Philip Kallberg",
