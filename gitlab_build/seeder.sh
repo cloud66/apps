@@ -7,7 +7,7 @@ mv /tmp/gitlab.rb /etc/gitlab/gitlab.rb
 # capture reconfigure pid id $last_pid
 last_pid=$!
 # sleep for config to complete
-sleep 120 
+sleep 180 
 # seeding db
 echo yes | /usr/bin/gitlab-rake gitlab:setup
 # removing process tree
