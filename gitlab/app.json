@@ -4,7 +4,7 @@
     "version" : "7.12.2",
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
     "url": "https://about.gitlab.com/",
-    "created_at" : "2015-02-10",
+    "created_at" : "2015-06-20",
     "description": "Web-based Git repository manager.",
     "logo" : "http://cdn.cloud66.com/images/appstore/gitlab.png",
     "maintainer" : 
@@ -12,7 +12,7 @@
         "name" : "Vic van Gool",
         "email" : "vic@cloud66.com",
         "company" : "Cloud 66",
-        "official" : false,
+        "official" : true,
         "trusted" : true
     }
 }
