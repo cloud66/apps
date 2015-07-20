@@ -1,7 +1,7 @@
 {
     "name" : "gitlab",
     "display_name" : "Gitlab",
-    "version" : "7.7.2",
+    "version" : "7.12.2",
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
     "url": "https://about.gitlab.com/",
     "created_at" : "2015-02-10",
@@ -9,10 +9,10 @@
     "logo" : "http://cdn.cloud66.com/images/appstore/gitlab.png",
     "maintainer" : 
     {
-        "name" : "Philip Kallberg",
-        "email" : "philip@cloud66.com",
+        "name" : "Vic van Gool",
+        "email" : "vic@cloud66.com",
         "company" : "Cloud 66",
-        "official" : true,
+        "official" : false,
         "trusted" : true
     }
 }
