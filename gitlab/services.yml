@@ -5,10 +5,8 @@ services:
     git_branch: production
     build_root: gitlab_build
     build_command: seeder.sh
-    ports:
-    - container: 80
-      http: 80
-      https: 443
+    ports: 
+    - '80:80:443'
     - container: 22
       tcp: 10022
     volumes:
