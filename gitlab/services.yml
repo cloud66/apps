@@ -1,20 +1,28 @@
+---
 services:
   gitlab:
-    image: sameersbn/gitlab:7.7.2
+    git_url: git://github.com/cloud66/apps
+    git_branch: production
+    build_root: gitlab_build
+    build_command: seeder.sh
     ports:
-    - 80:80:443
+    - container: 80
+      http: 80
+      https: 443
+    - container: 22
+      tcp: 10022
+    volumes:
+    - "/var/gitlab/data:/var/opt/gitlab"
+    - "/var/gitlab/logs:/var/log/gitlab"
+    - "/var/gitlab/configurations:/etc/gitlab"
     health:
       type: normal
-      endpoint: "/"
+      endpoint: "/users/sign_in"
       protocol: http
-      timeout: 600s
+      timeout: 300s
       accept:
       - '200'
       - 300-399
-    volumes:
-    - "/var/run/docker.sock:/run/docker.sock"
-    - "/var/gitlab/data:/home/git/data"
-    - "/var/gitlab/logs:/var/log/gitlab"
 databases:
-- mysql
+- postgresql
 - redis
