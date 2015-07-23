@@ -12,7 +12,7 @@
         "name" : "Vic VG",
         "email" : "vic@cloud66.com",
         "company" : "Cloud 66",
-        "official" : true,
+        "official" : false,
         "trusted" : true
     }
 }
