@@ -1,9 +1,7 @@
 ---
 services:
   gitlab:
-    git_url: git://github.com/cloud66/apps-build
-    git_branch: dev
-    build_root: gitlab
+    image: cloud66/gitlab:7.13.1
     build_command: seeder.sh
     ports: 
     - '80:80:443'
