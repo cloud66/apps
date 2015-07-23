@@ -1,7 +1,7 @@
 ---
 services:
   gitlab:
-    image: cloud66/gitlab:2.17.2
+    image: cloud66/gitlab:7.12.2
     build_command: seeder.sh
     ports: 
     - '80:80:443'
