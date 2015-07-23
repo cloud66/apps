@@ -1,6 +1,0 @@
-services:
-  hubot:
-    git_url: git://github.com/pkallberg/hubot-docker.git
-    git_branch: master
-databases:
-- redis
