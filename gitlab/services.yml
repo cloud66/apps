@@ -1,9 +1,7 @@
 ---
 services:
   gitlab:
-    git_url: git://github.com/cloud66/apps-build
-    git_branch: master
-    build_root: gitlab
+    image: cloud66/gitlab:2.17.2
     build_command: seeder.sh
     ports: 
     - '80:80:443'
@@ -14,7 +12,7 @@ services:
     - "/var/gitlab/logs:/var/log/gitlab"
     - "/var/gitlab/configurations:/etc/gitlab"
     health:
-      type: normal
+      type: inbound
       endpoint: "/users/sign_in"
       protocol: http
       timeout: 300s
