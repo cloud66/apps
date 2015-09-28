@@ -1,6 +1,6 @@
 services:
   wordpress:
-    image: cloud66/wordpress:4.1.0
+    image: wordpress:4.3.1
     ports:
     - 80:80:443
     health:
