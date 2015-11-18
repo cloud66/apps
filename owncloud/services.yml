@@ -1,4 +1,0 @@
-services:
-    image: dockerfile/ghost
-    ports: ["2368:80:443"]
-    restart_on_deploy: false
