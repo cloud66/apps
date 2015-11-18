@@ -1,7 +1,7 @@
 ---
 services:
   magento:
-    image: cloud66/magento:1.9.1.0
+    image: cloud66/magento:1.9.2.2
     health:
       type: normal
       endpoint: "/"
@@ -16,5 +16,11 @@ services:
     - "/var/magento/media:/var/www/htdocs/media"
     - "/var/magento/var:/var/www/htdocs/var"
     - "/var/magento/app:/var/www/htdocs/app"
+    requires:
+    - memcached
+  memcached:
+    image: sylvainlasnier/memcached
+    ports:
+    - 11211:11211
 databases:
 - mysql
