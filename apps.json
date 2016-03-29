@@ -5,6 +5,7 @@
     {"name" : "lets-chat", "enabled" : true },
     {"name" : "magento", "enabled" : true },
     {"name" : "mediawiki", "enabled" : true },
-    {"name" : "redmine", "enabled" : true },    
-    {"name" : "wordpress", "enabled" : true }
+    {"name" : "redmine", "enabled" : true },
+    {"name" : "wordpress", "enabled" : true },
+    {"name" : "elk-stack", "enabled" : true}
 ]
