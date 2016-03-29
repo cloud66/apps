@@ -1,0 +1,18 @@
+{
+    "name" : "elk-stack",
+    "display_name" : "ELK Stack",
+    "version" : "0.1.0",
+    "uid" : "cfb46026-5393-488c-a3d1-4ea2c0d04104",
+    "url": "https://www.elastic.co/webinars/introduction-elk-stack",
+    "created_at" : "2016-03-29",
+    "description": "Elastic Search, Logstash and Kibana",
+    "logo" : "http://cdn.cloud66.com/images/appstore/elk_logo.png",
+    "maintainer" :
+    {
+        "name" : "Khash Sajadi",
+        "email" : "khash@cloud66.com",
+        "company" : "Cloud 66",
+        "official" : true,
+        "trusted" : true
+    }
+}
