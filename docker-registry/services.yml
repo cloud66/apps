@@ -1,0 +1,6 @@
+services:
+  registry:
+    image: registry:2
+    ports:
+    - container: 5000
+      http: 5000
