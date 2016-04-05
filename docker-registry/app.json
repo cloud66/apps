@@ -5,7 +5,7 @@
     "uid" : "455e35a4-2b7b-440f-a57c-88ef8ff57876",
     "url": "https://docs.docker.com/registry",
     "created_at" : "2016-03-30",
-    "description": "Docker Registry for private image storage",
+    "description": "Private Docker image storage",
     "logo" : "http://cdn.cloud66.com/images/appstore/docker_registry.png",
     "maintainer" :
     {
