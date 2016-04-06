@@ -7,6 +7,10 @@
     "created_at" : "2016-03-30",
     "description": "Private Docker image storage",
     "logo" : "http://cdn.cloud66.com/images/appstore/docker_registry.png",
+    "templates" : [
+        "custom_config/cloud66_nginx.conf",
+        "custom_config/deploy_hooks.yml"
+    ],
     "maintainer" :
     {
         "name" : "Vic VG",
