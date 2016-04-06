@@ -20,6 +20,10 @@ This is a json file describing the app in the folder. It contains information ab
     "uid" : "9bf185dc-acd6-44dc-bd1b-901bc2ea3e6e",
     "created_at" : "2015-01-19",
     "logo" : "https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png",
+    "templates" : [
+      "known_template_name1",
+      "known_template_name2"
+    ]
     "maintainer" : 
     {
         "name" : "Khash Sajadi",
@@ -56,4 +60,8 @@ Json file containing the environment variables required by this EasyDeploy.
 
 ### readme.md (optional)
 
-Markdown file for help and documentation of this EasyDeploy. 
+Markdown file for help and documentation of this EasyDeploy.
+ 
+### templates (optional)
+ 
+Array of relative paths in the easy-deploy repository used to override template files. Corresponding files must exist. Valid filenames (directory is ignored) are: "cloud66_nginx.conf", "deploy_hooks.yml", "haproxy.cfg", "mongodb.conf", "my.cnf", "postgresql.conf", "redis.conf", "telegraf.conf"
