@@ -1,1 +1,16 @@
-deploy_hooks
+defaults: &defaults
+  before_docker:
+    - command: mkdir -p /etc/nginx/conf.d && printf "$REGISTRY_USER:$(openssl passwd -crypt $REGISTRY_PASSWORD)\n" > /etc/nginx/conf.d/registry.htpasswd
+      target: docker
+      execute: true
+      sudo: true
+      apply_during: build_only
+      run_on: all_servers
+development:
+  <<: *defaults
+staging:
+  <<: *defaults
+qa:
+  <<: *defaults
+production:
+  <<: *defaults
