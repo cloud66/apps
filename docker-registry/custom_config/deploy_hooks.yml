@@ -1,6 +1,6 @@
 defaults: &defaults
   before_docker:
-    - command: mkdir -p /etc/nginx/conf.d && printf "$REGISTRY_USER:$(openssl passwd -crypt $REGISTRY_PASSWORD)\n" > /etc/nginx/conf.d/registry.htpasswd
+    - command: mkdir -p /etc/nginx/conf.d && printf "$REGISTRY_USER:$(openssl passwd -apr1 $REGISTRY_PASSWORD)\n" > /etc/nginx/conf.d/registry.htpasswd
       target: docker
       execute: true
       sudo: true
