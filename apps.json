@@ -1,5 +1,7 @@
 [
+    {"name" : "docker-registry", "enabled" : true}
     {"name" : "drupal", "enabled" : true },
+    {"name" : "elk-stack", "enabled" : true},
     {"name" : "ghost", "enabled" : true },
     {"name" : "gitlab", "enabled" : true },
     {"name" : "lets-chat", "enabled" : true },
@@ -7,6 +9,4 @@
     {"name" : "mediawiki", "enabled" : true },
     {"name" : "redmine", "enabled" : true },
     {"name" : "wordpress", "enabled" : true },
-    {"name" : "elk-stack", "enabled" : true},
-    {"name" : "docker-registry", "enabled" : true}
 ]
