@@ -1,4 +1,4 @@
-# Cloud 66 EasyDeploy&trade;
+# Cloud 66 EasyDeploy&trade; App
 
 ## Docker Registry
 
