@@ -2,6 +2,8 @@
 
 ## Docker Registry
 
+The Docker Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images. Cloud 66 has wrapped this into an EasyDeploy&trade; App that be automatically installed, secured and configured in your own server environments for storage of private images. Read [more about the registry](https://docs.docker.com/registry/)
+
 ### Installation 
 1. Install this EasyDeploy&trade; App from the [Cloud 66 App Store](https://app.cloud66.com/easydeploys)
 2. **Optional:** Modify the default `REPOSITORY_USER` and/or `REPOSITORY_PASSWORD` ENV vars (in the advanced tab)
@@ -17,7 +19,7 @@
 ```
 docker login username=$REGISTRY_USER --password=$REGISTRY_PASSWORD --email=[YOUR-EMAIL] https://[YOUR-DNS] 
 ```
-2. **Optional:** Add your private registry to your [account's image repositories](https://app.cloud66.com/image_repositories). This will allow deployment of images stored in your private registry.
+2. **Optional:** Add your private registry to your [account's image repositories](https://app.cloud66.com/image_repositories). This will allow deployment of images stored in your private registry. You will need to use the username and passwords that you have configurated (default is the value of $REGISTRY_USER and $REGISTRY_PASSWORD)
 3. Profit! 
 
 ### Optional: Advanced Configuration 
