@@ -1,1 +1,1 @@
-## Placeholder
+## EasyDeploy: Docker Registry
