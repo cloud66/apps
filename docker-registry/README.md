@@ -42,8 +42,10 @@ however, to generate and store encrypted (sensible) password values you can use 
 > /etc/nginx/conf.d/cloud66.htpasswd
 
 # repeat below as needed
-user=bob password=jesk printf "$user:$(openssl passwd -apr1 $password)\n" >> /etc/nginx/conf.d/cloud66.htpasswd
-user=tim password=cobb printf "$user:$(openssl passwd -apr1 $password)\n" >> /etc/nginx/conf.d/cloud66.htpasswd
+user=bob password=jesk
+printf "$user:$(openssl passwd -apr1 $password)\n" >> /etc/nginx/conf.d/cloud66.htpasswd
+user=tim password=cobb 
+printf "$user:$(openssl passwd -apr1 $password)\n" >> /etc/nginx/conf.d/cloud66.htpasswd
 ...
 
 # pick up changes in nginx
