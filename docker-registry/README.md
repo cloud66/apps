@@ -39,6 +39,7 @@ __Sample Registry Configuration:__ AWS S3 Storage Backend
   REGISTRY_STORAGE_S3_CHUNKSIZE: 5242880
   REGISTRY_STORAGE_S3_ROOTDIRECTORY: /my_images
 ```
+Read more about [Docker Registry Configuration Options](https://docs.docker.com/registry/configuration/)
 
 #### Modify docker users/passwords after deployment
 
