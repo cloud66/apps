@@ -24,10 +24,9 @@ docker login username=$REGISTRY_USER --password=$REGISTRY_PASSWORD --email=[YOUR
 
 #### Change the Registry Configuration
 
-The private registry uses the Docker Registry (version 2.x.x) as its framework and the Docker Registry allows for all configuration items to be provided by ENV vars. So we can configure your private registry via these ENV vars.
+The private registry uses the Docker Registry (version 2.x.x) as its framework and the Docker Registry allows for all configuration items to be provided by ENV vars. So we can configure your private registry via these ENV vars. See the below sample.
 
-1) Sample Registry Configuration — AWS S3 as the storage backend
-Add the following ENV vars
+##### AWS S3 Storage Backend (Sample Registry Configuration)
 ```
 ```
 
