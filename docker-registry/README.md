@@ -24,13 +24,21 @@ docker login username=$REGISTRY_USER --password=$REGISTRY_PASSWORD --email=[YOUR
 
 #### Change the Registry Configuration
 
-The private registry uses the Docker Registry (version 2.x.x) as its framework and the Docker Registry allows for all configuration items to be provided by ENV vars. So we can configure your private registry via these ENV vars. See the below sample to be added to your service configuration (then stack redeployed)
+The private registry uses the Docker Registry (version 2.x.x) as its framework and the Docker Registry allows for all configuration items to be provided by ENV vars. So we can configure your private registry via these ENV vars. See the below sample to be added to your service configuration OR stack environment variables (then stack redeployed)
 
 __Sample Registry Configuration:__ AWS S3 Storage Backend
 ```
-
+  REGISTRY_STORAGE: s3
+  REGISTRY_STORAGE_S3_REGION: us-east-1
+  REGISTRY_STORAGE_S3_BUCKET: ****** 
+  REGISTRY_STORAGE_S3_ACCESSKEY: ****** 
+  REGISTRY_STORAGE_S3_SECRETKEY: ******
+  REGISTRY_STORAGE_S3_ENCRYPT: true
+  REGISTRY_STORAGE_S3_SECURE: true
+  REGISTRY_STORAGE_S3_V4AUTH: false
+  REGISTRY_STORAGE_S3_CHUNKSIZE: 5242880
+  REGISTRY_STORAGE_S3_ROOTDIRECTORY: /my_images
 ```
-
 
 #### Modify docker users/passwords after deployment
 
@@ -52,10 +60,3 @@ printf "$user:$(openssl passwd -apr1 $password)\n" >> /etc/nginx/conf.d/cloud66.
 sudo service nginx reload
 ```
 Note that this should be run on all docker servers that are serving your private registry, and can be implemented as a deploy hook if needed (see the `custom_config/deploy_hooks.yml` that is present and used in this repo)
-
-
-
-
-
-
-
