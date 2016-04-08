@@ -3,14 +3,17 @@
 The Docker Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images. Cloud 66 has wrapped this into an EasyDeploy&trade; App that be automatically installed, secured and configured in your own server environments for storage of private images. Read [more about the registry](https://docs.docker.com/registry/)
 
 ### Installation 
-1. Install this EasyDeploy&trade; App from the [Cloud 66 App Store](https://app.cloud66.com/easydeploys)
-2. **Optional:** Modify the default `REPOSITORY_USER` and/or `REPOSITORY_PASSWORD` ENV vars (in the advanced tab)
-3. **Optional:** Configure your registry further see — *Advanced Configuration* below. This can be done any time after initial deployment
-4. Deploy your stack to your selected cloud/servers!
-6. **Optional:** Add a [failover group](http://help.cloud66.com/network/failover-groups) to add DNS resiliance against server IP changes
-7. Create an external DNS entry for your stack (point it to your server A-Record or failover group CNAME above)
-8. Add an SSL certificate to your stack via the (SSL Stack Addin)[http://help.cloud66.com/stack-add-ins/ssl-certificate] (this is necessary as your repo is secured with basic authentication)
-9. All done, you're running your own private registry!
+1. Select "Install" on this EasyDeploy&trade; App from the [Cloud 66 App Store](https://app.cloud66.com/easydeploys)
+2. **Optional:** Configure your registry service; see — *Advanced Configuration* below
+3. Select "Next"
+4. **Optional:** Modify the default `REPOSITORY_USER` and/or `REPOSITORY_PASSWORD` ENV vars. Click the "Add Environment Vars" button (on the bottom right) for access to these values
+5. Hit "Deploy" to deploy your stack to your selected cloud/servers!
+6. Wait for deployment to complete
+7. **Optional:** Add a [failover group](http://help.cloud66.com/network/failover-groups) to add DNS resiliance against server IP changes
+8. Create an external DNS entry for your stack (point it to your server A-Record or failover group CNAME above)
+9. Add an SSL certificate to your stack via the (SSL Stack Addin)[http://help.cloud66.com/stack-add-ins/ssl-certificate] (this is necessary as your repo is secured with basic authentication)
+
+All done, you're running your own private registry!
 
 ### Usage
 1. Log in to your private registry
