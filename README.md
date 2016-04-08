@@ -1,4 +1,4 @@
-# EasyDeploy&trade; Apps for Cloud 66 Docker stacks
+# EasyDeploy&trade; Apps for Cloud 66 Docker Stacks
 
 ## Steps to build your own EasyDeploy app
 
