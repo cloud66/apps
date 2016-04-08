@@ -3,7 +3,7 @@
     "display_name" : "Docker Registry",
     "version" : "2.x.x",
     "uid" : "455e35a4-2b7b-440f-a57c-88ef8ff57876",
-    "url": "https://github.com/cloud66/apps/blob/production/docker-registry/README.md",
+    "url": "https://github.com/cloud66/apps/tree/production/docker-registry",
     "created_at" : "2016-04-08",
     "description": "Private Docker image storage",
     "logo" : "http://cdn.cloud66.com/images/appstore/docker_registry.png",
