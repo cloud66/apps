@@ -4,3 +4,8 @@ services:
     ports: 
     - container: 5000
       https: 443
+    env_vars:
+      REGISTRY_USER: AUTO_GENERATE_10
+      REGISTRY_PASSWORD: AUTO_GENERATE_20
+      REGISTRY_STORAGE: filesystem
+      REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /var/lib/registry
