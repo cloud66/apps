@@ -1,6 +1,4 @@
-# Cloud 66 EasyDeploy&trade; App
-
-## Docker Registry
+## Docker Registry EasyDeploy&trade; App
 
 The Docker Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images. Cloud 66 has wrapped this into an EasyDeploy&trade; App that be automatically installed, secured and configured in your own server environments for storage of private images. Read [more about the registry](https://docs.docker.com/registry/)
 
