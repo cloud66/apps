@@ -6,7 +6,7 @@
     "url": "https://www.mediawiki.org/",
     "created_at" : "2015-02-10",
     "description": "Open-source wiki application.",
-    "logo" : "http://cdn.cloud66.com/images/appstore/mediawikis.png",
+    "logo" : "https://cdn.cloud66.com/images/appstore/mediawikis.png",
     "maintainer" : 
     {
         "name" : "Philip Kallberg",

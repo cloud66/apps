@@ -6,7 +6,7 @@
     "url": "https://www.drupal.org/",
     "created_at" : "2015-02-10",
     "description": "CMS for websites and applications.",
-    "logo" : "http://cdn.cloud66.com/images/appstore/drupals.png",
+    "logo" : "https://cdn.cloud66.com/images/appstore/drupals.png",
     "maintainer" : 
     {
         "name" : "Philip Kallberg",

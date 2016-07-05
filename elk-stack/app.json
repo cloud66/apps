@@ -6,7 +6,7 @@
     "url": "https://www.elastic.co/webinars/introduction-elk-stack",
     "created_at" : "2016-03-29",
     "description": "Elastic Search, Logstash and Kibana",
-    "logo" : "http://cdn.cloud66.com/images/appstore/elk_logo.png",
+    "logo" : "https://cdn.cloud66.com/images/appstore/elk_logo.png",
     "maintainer" :
     {
         "name" : "Khash Sajadi",
