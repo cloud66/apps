@@ -9,10 +9,10 @@
   "logo" : "http://vignette1.wikia.nocookie.net/uncyclopedia/images/b/b7/Igor.png/revision/latest?cb=20060723172942",
   "maintainer" :
   {
-    "name" : "Philip Kallberg",
-    "email" : "philip@cloud66.com",
-    "company" : "Cloud 66",
-    "official" : false,
-    "trusted" : true
+     "name" : "Vic VG",
+     "email" : "vic@cloud66.com",
+     "company" : "Cloud 66",
+     "official" : true,
+     "trusted" : true
   }
 }
