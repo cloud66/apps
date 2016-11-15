@@ -1,7 +1,7 @@
 services:
   igor:
     git_url: git@github.com:cloud66/igor-bot.git
-    git_branch: master
+    git_branch: feature/testing_enhancements
     ports:
     - 8080:80:443
 databases:
