@@ -12,7 +12,7 @@ services:
     dockerfile_path: registration_webpage/Dockerfile
     volumes: ["/data:/opt/chat-ops-common"]
     ports:
-    - 80:80:443
+    - 8080:80:443
 databases:
 - redis
 
