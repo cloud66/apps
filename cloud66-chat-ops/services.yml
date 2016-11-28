@@ -5,14 +5,14 @@ services:
     dockerfile_path: Dockerfile
     volumes: ["/data:/opt/chat-ops-common"]
     ports:
-    - 8080:80:443
+    - 8080:8080
   registration_webpage:
     git_url: git@github.com:cloud66/igor-bot.git
     git_branch: feature/testing_enhancements
     dockerfile_path: registration_webpage/Dockerfile
     volumes: ["/data:/opt/chat-ops-common"]
     ports:
-    - 8080:8080
+    - 8080:80:443
 databases:
 - redis
 
