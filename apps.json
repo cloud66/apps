@@ -9,5 +9,5 @@
     {"name" : "mediawiki", "enabled" : true },
     {"name" : "redmine", "enabled" : true },
     {"name" : "wordpress", "enabled" : true },
-    {"name" : "cloud66-chat-ops", "enabled": true }
+    {"name" : "igor", "enabled": true }
 ]
