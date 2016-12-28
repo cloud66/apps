@@ -6,7 +6,7 @@
   "url": "http://www.cloud66.com/home",
   "created_at" : "2016-11-14",
   "description": "Slack bot to manage your stacks",
-  "logo" : "http://vignette1.wikia.nocookie.net/uncyclopedia/images/b/b7/Igor.png/revision/latest?cb=20060723172942",
+  "logo" : "cdn.cloud66.com.s3.amazonaws.com/images/cloud66_chatops.png",
   "maintainer" :
   {
      "name" : "Vic VG",
