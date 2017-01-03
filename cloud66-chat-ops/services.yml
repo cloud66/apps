@@ -1,12 +1,12 @@
 services:
   igor:
-    image: cloud66/igor:test
+    image: cloud66/igor:1.0
     dockerfile_path: Dockerfile
     volumes: ["/opt/chat-ops-common:/opt/chat-ops-common"]
     ports:
     - 8080:8080
   registration_webpage:
-    image: cloud66/igor-webpage:test
+    image: cloud66/igor-webpage:1.0
     dockerfile_path: Dockerfile
     volumes: ["/opt/chat-ops-common:/opt/chat-ops-common"]
     ports:
