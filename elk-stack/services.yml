@@ -3,13 +3,13 @@ services:
   logstash:
     dockerfile_path: Dockerfile_logstash
     git_url: git://github.com/cloud66/elk.git
-    git_branch: master
-    command: logstash agent -f /app/logstash.config
+    git_branch: staging
+    command: logstash -f /app/logstash.config
     ports:
     - container: 5045
       tcp: 5044
   kibana:
-    image: kibana
+    image: kibana:5.1.2
     ports:
     - 5601:80:443
 databases:
