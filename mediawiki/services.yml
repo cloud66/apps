@@ -1,6 +1,6 @@
 services:
   mediawiki:
-    image: cloud66/mediawiki:1.23.8
+    image: synctree/mediawiki:1.24
     command: apache2-foreground
     health:
       type: normal
