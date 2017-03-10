@@ -1,7 +1,7 @@
 ---
 services:
   redmine:
-    image: sameersbn/redmine:2.6.2
+    image: sameersbn/redmine:3.3.2
     ports:
     - 80:80:443
     health:

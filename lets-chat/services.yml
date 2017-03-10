@@ -1,8 +1,7 @@
 ---
 services:
   letschat:
-    git_url: git://github.com/sdelements/lets-chat.git
-    git_branch: master
+    image: sdelements/lets-chat:0.4.7
     volumes:
     - "/var/letschat/uploads:/usr/src/app/uploads"
     health:
