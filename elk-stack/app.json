@@ -1,7 +1,7 @@
 {
     "name" : "elk-stack",
     "display_name" : "ELK Stack",
-    "version" : "0.1.0",
+    "version" : "1.0.3",
     "uid" : "cfb46026-5393-488c-a3d1-4ea2c0d04104",
     "url": "https://www.elastic.co/webinars/introduction-elk-stack",
     "created_at" : "2016-03-29",
