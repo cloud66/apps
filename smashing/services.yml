@@ -1,0 +1,7 @@
+services:
+  smashingapp:
+    git_url: git://github.com/cloud66/smashingApp.git
+    git_branch: master
+    ports:
+    - 3030:80:443
+    dockerfile_path: Dockerfile

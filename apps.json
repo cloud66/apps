@@ -8,5 +8,6 @@
     {"name" : "redmine", "enabled" : true },
     {"name" : "wordpress", "enabled" : true },
     {"name" : "elk-stack", "enabled" : true},
-    {"name" : "cloud66-chat-ops", "enabled": true }
+    {"name" : "cloud66-chat-ops", "enabled": true },
+    {"name" : "smashing", "enabled" : true }
 ]
